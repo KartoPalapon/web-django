@@ -1,0 +1,13 @@
+{% load static %}
+<header class="site-header">
+    <a class="site-header-item site-header-brand" href="{% url 'index' %}">
+        <img src="{% static 'app_general/logo.png' %}">
+        <span>Chill box</span>
+    </a>
+    <a class="site-header-item" href="{% url 'foods' %}">
+        <span>Movie</span>
+    </a>
+    <a class="site-header-item" href="{% url 'about' %}">
+        <span>About</span>
+    </a>
+</header>

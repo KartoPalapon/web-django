@@ -1,0 +1,14 @@
+{% extends 'app_general/components/base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="home-landing">
+    <h4 class="home-landing-text">let's chill out with</h4>
+    <h1 class="home-landing-text">Chill Box</h1>
+    <h6 class="home-landing-text">Netflix  /  Viu   / WeTv  /  Youtube premium / Disney+  /  iQIY  /  Spotify  /   Joox    /  Apple Music</h6>
+    <p>
+        <a class="button" href="{% url 'foods' %}">ดูเมนูทั้งหมด</a>
+        <a class="button button-primary" href="{% url 'subscription' %}">ลงทะเบียนรับโปรโมชั่น</a>
+    </p>
+
+{% endblock %}
